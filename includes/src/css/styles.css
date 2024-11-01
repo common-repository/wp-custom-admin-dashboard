@@ -1,0 +1,116 @@
+/**
+ * WP Custom Admin Dashboard Plugin CSS
+ *
+ * @package  customize-admin-dashboard
+ * @developer  Inceva <https://www.inceva.co.th>
+ * @version 1.1
+ *
+ */
+.cad_plugin_options .cad_hidden{
+    display: none !important;
+}
+.cad_plugin_options .clear{
+    clear: both;
+}
+.cad_plugin_options h3.title {
+    color: #00b9eb;
+    text-align: center;
+    font-size:22px;
+    font-weight: normal;
+}
+
+.cad_plugin_options h2 {
+    color: #00b9eb;
+}
+
+.cad_plugin_options .desc {
+    color: #5c5c5c !important;
+    font-size: 13px !important;
+    font-style: italic !important;
+    text-align: center !important;
+}
+
+.cad_plugin_options .credits {
+    border-bottom: 1px solid #eeecec !important;
+    margin-bottom: 20px !important;
+    padding-bottom: 20px !important;
+    text-align: right !important;
+    font-weight: bold !important;
+}
+
+.cad_plugin_options .credits a {
+    text-decoration: none !important;
+    color: #00b9eb !important;
+}
+
+.cad_plugin_options .settings_form {
+    margin: 40px 0 !important;
+}
+
+.cad_plugin_options .nav-tab-wrapper a {
+    font-size:14px;
+}
+
+.cad_plugin_options #submit{
+    background-color: #00b9eb !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+.cad_plugin_options #submit:hover{
+    background-color: #da3543 !important;
+}
+
+.cad_plugin_options input[type="text"]{
+    border: 1px solid;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+}
+
+.cad_plugin_options .cad_login_logo_set img{
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+.cad_plugin_options .cad_login_logo_set.bg img{
+    max-width: 400px;
+}
+
+.cad_plugin_options .cad_reset_warning{
+    color:#da3543;
+    text-transform: uppercase;
+}
+
+.cad_plugin_options .cad_reset{
+    display: block;
+    background-color: #da3543;
+    border:none;
+    color:#fff;
+    margin:20px 0;
+}
+
+.cad_plugin_options .cad_reset:hover{
+    color: #da3543;
+    background-color: #e5e5e5;
+}
+
+.cad_plugin_options .cad_loader_cont{
+    display: block;
+    text-align: center;
+}
+
+.cad_plugin_options .cad_loader{
+    width:100%;
+    max-width: 50px;
+    height: auto;
+    display: none;
+}
+
+.cad_plugin_options .cad_reset_return{
+    color:#da3543;
+    text-align: center;
+    display: none;
+}
